@@ -215,10 +215,13 @@ img {
 
     .yoshiPhoto, .banjoPhoto, .fionaPhoto {
         margin: 20px 0px;
+        min-width: none;
+        transition: none;
     }
 
 
     .yoshiText, .fionaText, .banjoText {
+        font-size: 1rem;
         position: absolute;
         top: auto;
         bottom: 20px;
